@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{15aae728-55b4-4e41-a71a-b2e082dbaee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{51892dcb-992c-494e-9b3d-461238dfc4f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\miniaudio">
+      <UniqueIdentifier>{a95d68bc-8983-42ea-bb76-f76fa4cc60b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\miniaudio">
+      <UniqueIdentifier>{8634d473-2af4-43dd-a569-32525c5dd5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{78c3b680-3ab9-4382-816c-2690e258f85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\musics">
+      <UniqueIdentifier>{e1c09c4a-5e65-472d-9761-6542fccd9995}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main_shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui-master\imgui.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui-master\imgui_draw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui-master\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui-master\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui-master\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\miniaudio-0.11.22\miniaudio.c">
+      <Filter>Source Files\miniaudio</Filter>
+    </ClCompile>
+    <ClCompile Include="thirdparty\imgui-master\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\imconfig.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\imgui.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\imgui_internal.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\imstb_rectpack.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\imstb_textedit.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\imstb_truetype.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\backends\imgui_impl_opengl3.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\backends\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\miniaudio-0.11.22\miniaudio.h">
+      <Filter>Header Files\miniaudio</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\stb-master\stb_image.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="thirdparty\imgui-master\backends\imgui_impl_glfw.h">
+      <Filter>Header Files\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\models\Batman.glb">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="assets\models\Superman.glb">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="assets\models\Walter.glb">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="scenes.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="thirdparty\imgui-master\.editorconfig">
+      <Filter>Source Files\imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="assets\musics\Punkrocker.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="assets\musics\BreakBad.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+    <Media Include="assets\musics\Something.wav">
+      <Filter>Resource Files\musics</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

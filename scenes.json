@@ -1,0 +1,37 @@
+{
+    "scenes": [
+        {
+            "ambientIntensity": 0.3779999911785126,
+            "lightPos": [
+                -6.688000202178955,
+                -7.000999927520752,
+                4.769999980926514
+            ],
+            "meshPath": "assets/models\\Batman.glb",
+            "musicPath": "assets/musics\\Something.mp3",
+            "name": "The Dark Knight"
+        },
+        {
+            "ambientIntensity": 0.5,
+            "lightPos": [
+                3.0,
+                7.686999797821045,
+                4.538000106811523
+            ],
+            "meshPath": "assets/models\\Superman.glb",
+            "musicPath": "assets/musics\\Punkrocker.mp3",
+            "name": "Man of Tomorrow"
+        },
+        {
+            "ambientIntensity": 0.1289999932050705,
+            "lightPos": [
+                0.31200000643730164,
+                -4.188000202178955,
+                3.0
+            ],
+            "meshPath": "assets/models\\Walter.glb",
+            "musicPath": "assets/musics\\BreakBad.mp3",
+            "name": "Heisenburg"
+        }
+    ]
+}
