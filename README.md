@@ -1,5 +1,6 @@
 ![Screenshot](assets/Demo.png)
-A Simple Interactive Game Engine Demo with Scene Editing, OpenGL 3D Rendering, and Audio Playback
+**A Simple Interactive Game Engine Demo with Scene Editing, OpenGL 3D Rendering, and Audio Playback**
+
 This project demonstrates a simple game engine environment featuring real-time OpenGL 3D rendering, scene editing, and audio playback via a graphical UI using ImGui.
 
 ---
